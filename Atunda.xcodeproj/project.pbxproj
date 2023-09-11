@@ -7,15 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18058A6A292CBA5700EB41A9 /* UploadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18058A69292CBA5700EB41A9 /* UploadViewModel.swift */; };
+		184BE68E290EBDA500AD62D6 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184BE68D290EBDA500AD62D6 /* ProfileViewModel.swift */; };
+		189235B2291118E100E4F139 /* ModeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189235B1291118E100E4F139 /* ModeViewModel.swift */; };
+		18973D97294A2A9700F28381 /* SelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18973D96294A2A9700F28381 /* SelectionViewModel.swift */; };
+		18973D99294B642300F28381 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18973D98294B642300F28381 /* HomeViewModel.swift */; };
+		189830172936693200A49ECC /* UploadsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189830162936693200A49ECC /* UploadsTableViewCell.swift */; };
+		1898301929367F3F00A49ECC /* FileMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898301829367F3F00A49ECC /* FileMetaData.swift */; };
+		18B3B2252A09995400E65D64 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18B3B2242A09995400E65D64 /* Montserrat-Regular.ttf */; };
+		18B3B2272A09996300E65D64 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18B3B2262A09996200E65D64 /* Montserrat-Bold.ttf */; };
+		18B8F25728D3B15500956857 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8F25628D3B15500956857 /* CaptureViewController.swift */; };
+		18B8F25928D3B16800956857 /* CaptureUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8F25828D3B16800956857 /* CaptureUI.swift */; };
+		18B8F25B28DBB70B00956857 /* CustomPhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8F25A28DBB70A00956857 /* CustomPhotoAlbum.swift */; };
+		18B8F25E28DC504B00956857 /* SelectedUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8F25D28DC504B00956857 /* SelectedUI.swift */; };
+		18B8F26028DC507700956857 /* SelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8F25F28DC507700956857 /* SelectedViewController.swift */; };
+		18B8F26228DC587800956857 /* SelectedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8F26128DC587700956857 /* SelectedCollectionViewCell.swift */; };
+		18B8F26428EA274800956857 /* DropBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8F26328EA274800956857 /* DropBox.swift */; };
+		18B8F26628EA3CF800956857 /* CaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8F26528EA3CF800956857 /* CaptureViewModel.swift */; };
+		18B8F26828EA627C00956857 /* CaptureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8F26728EA627B00956857 /* CaptureTableViewCell.swift */; };
+		18F2F3B228D2318700D55C33 /* UploadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2F3B128D2318700D55C33 /* UploadsViewController.swift */; };
+		18F2F3B428D231B500D55C33 /* UploadsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2F3B328D231B500D55C33 /* UploadsUI.swift */; };
+		18F2F3B628D2321700D55C33 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2F3B528D2321700D55C33 /* ProfileViewController.swift */; };
+		18F2F3B828D2322800D55C33 /* ProfileUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2F3B728D2322800D55C33 /* ProfileUI.swift */; };
+		18F2F3BA28D23A2200D55C33 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2F3B928D23A2200D55C33 /* Cache.swift */; };
+		18F2F3BD28D34D1600D55C33 /* SettingsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2F3BC28D34D1600D55C33 /* SettingsUI.swift */; };
+		18F2F3BF28D34D2700D55C33 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2F3BE28D34D2700D55C33 /* SettingsViewController.swift */; };
+		18F3C70F2983433300A3E2A1 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C70E2983433300A3E2A1 /* Protocols.swift */; };
 		18FC20A428C60D550016B541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC20A328C60D550016B541 /* AppDelegate.swift */; };
 		18FC20A628C60D550016B541 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC20A528C60D550016B541 /* SceneDelegate.swift */; };
-		18FC20A828C60D550016B541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC20A728C60D550016B541 /* ViewController.swift */; };
+		18FC20A828C60D550016B541 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC20A728C60D550016B541 /* SplashViewController.swift */; };
 		18FC20AB28C60D550016B541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC20A928C60D550016B541 /* Main.storyboard */; };
 		18FC20AD28C60D590016B541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FC20AC28C60D590016B541 /* Assets.xcassets */; };
 		18FC20B028C60D590016B541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC20AE28C60D590016B541 /* LaunchScreen.storyboard */; };
 		18FC20BB28C60D5A0016B541 /* AtundaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC20BA28C60D5A0016B541 /* AtundaTests.swift */; };
 		18FC20C528C60D5A0016B541 /* AtundaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC20C428C60D5A0016B541 /* AtundaUITests.swift */; };
 		18FC20C728C60D5A0016B541 /* AtundaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC20C628C60D5A0016B541 /* AtundaUITestsLaunchTests.swift */; };
+		18FC20DA28C624F30016B541 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC20D928C624F30016B541 /* Extensions.swift */; };
+		18FC212528C635A00016B541 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC212428C635A00016B541 /* Constants.swift */; };
+		18FC212928C6585B0016B541 /* SignupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC212828C6585B0016B541 /* SignupUI.swift */; };
+		18FC212B28C67D150016B541 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC212A28C67D150016B541 /* SignupViewController.swift */; };
+		18FC212D28C69CDB0016B541 /* Manipulations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC212C28C69CDB0016B541 /* Manipulations.swift */; };
+		18FC213028C778530016B541 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC212F28C778530016B541 /* LoginViewController.swift */; };
+		18FC213228C7786C0016B541 /* LoginUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC213128C7786C0016B541 /* LoginUI.swift */; };
+		18FC213728C7D0020016B541 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC213628C7D0020016B541 /* Service.swift */; };
+		18FC213928C7D3180016B541 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC213828C7D3170016B541 /* User.swift */; };
+		18FC213B28C7D4890016B541 /* Compilation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC213A28C7D4890016B541 /* Compilation.swift */; };
+		18FC213D28C7DC590016B541 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC213C28C7DC590016B541 /* Observable.swift */; };
+		18FC213F28C7DED70016B541 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC213E28C7DED70016B541 /* AuthViewModel.swift */; };
+		18FC214228C8BE6C0016B541 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC214128C8BE6C0016B541 /* HomeViewController.swift */; };
+		18FC214428C8BF050016B541 /* HomeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC214328C8BF050016B541 /* HomeUI.swift */; };
+		18FC214828CB45160016B541 /* ModeUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC214728CB45150016B541 /* ModeUi.swift */; };
+		18FC214A28CB45300016B541 /* ModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC214928CB45300016B541 /* ModeViewController.swift */; };
+		763D09AAEA2D9C908690CB62 /* Pods_Atunda_AtundaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB443BD8E03BA79A1309553 /* Pods_Atunda_AtundaUITests.framework */; };
+		C9AE1FBD2A9F8ACE0038C86B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9AE1FBC2A9F8ACD0038C86B /* GoogleService-Info.plist */; };
+		D05E89E3BD0EBE67261B2751 /* Pods_Atunda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE12CAB41EB2EF6460FA0D2 /* Pods_Atunda.framework */; };
+		FFC6429EAFD3FA9EC29131A3 /* Pods_AtundaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEF24D22353C3E1688726B4 /* Pods_AtundaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +82,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18058A69292CBA5700EB41A9 /* UploadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewModel.swift; sourceTree = "<group>"; };
+		184BE68D290EBDA500AD62D6 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		189235B1291118E100E4F139 /* ModeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeViewModel.swift; sourceTree = "<group>"; };
+		18973D96294A2A9700F28381 /* SelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewModel.swift; sourceTree = "<group>"; };
+		18973D98294B642300F28381 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		189830162936693200A49ECC /* UploadsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadsTableViewCell.swift; sourceTree = "<group>"; };
+		1898301829367F3F00A49ECC /* FileMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileMetaData.swift; sourceTree = "<group>"; };
+		18B3B2242A09995400E65D64 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		18B3B2262A09996200E65D64 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		18B8F25628D3B15500956857 /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		18B8F25828D3B16800956857 /* CaptureUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureUI.swift; sourceTree = "<group>"; };
+		18B8F25A28DBB70A00956857 /* CustomPhotoAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPhotoAlbum.swift; sourceTree = "<group>"; };
+		18B8F25D28DC504B00956857 /* SelectedUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedUI.swift; sourceTree = "<group>"; };
+		18B8F25F28DC507700956857 /* SelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedViewController.swift; sourceTree = "<group>"; };
+		18B8F26128DC587700956857 /* SelectedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCollectionViewCell.swift; sourceTree = "<group>"; };
+		18B8F26328EA274800956857 /* DropBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropBox.swift; sourceTree = "<group>"; };
+		18B8F26528EA3CF800956857 /* CaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewModel.swift; sourceTree = "<group>"; };
+		18B8F26728EA627B00956857 /* CaptureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureTableViewCell.swift; sourceTree = "<group>"; };
+		18F2F3B128D2318700D55C33 /* UploadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadsViewController.swift; sourceTree = "<group>"; };
+		18F2F3B328D231B500D55C33 /* UploadsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadsUI.swift; sourceTree = "<group>"; };
+		18F2F3B528D2321700D55C33 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		18F2F3B728D2322800D55C33 /* ProfileUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUI.swift; sourceTree = "<group>"; };
+		18F2F3B928D23A2200D55C33 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		18F2F3BC28D34D1600D55C33 /* SettingsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsUI.swift; sourceTree = "<group>"; };
+		18F2F3BE28D34D2700D55C33 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		18F3C70E2983433300A3E2A1 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		18FC20A028C60D550016B541 /* Atunda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atunda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FC20A328C60D550016B541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18FC20A528C60D550016B541 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18FC20A728C60D550016B541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18FC20A728C60D550016B541 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		18FC20AA28C60D550016B541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18FC20AC28C60D590016B541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FC20AF28C60D590016B541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +121,32 @@
 		18FC20C028C60D5A0016B541 /* AtundaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtundaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FC20C428C60D5A0016B541 /* AtundaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtundaUITests.swift; sourceTree = "<group>"; };
 		18FC20C628C60D5A0016B541 /* AtundaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtundaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18FC20D928C624F30016B541 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		18FC212428C635A00016B541 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18FC212828C6585B0016B541 /* SignupUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupUI.swift; sourceTree = "<group>"; };
+		18FC212A28C67D150016B541 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		18FC212C28C69CDB0016B541 /* Manipulations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manipulations.swift; sourceTree = "<group>"; };
+		18FC212F28C778530016B541 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18FC213128C7786C0016B541 /* LoginUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUI.swift; sourceTree = "<group>"; };
+		18FC213628C7D0020016B541 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		18FC213828C7D3170016B541 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		18FC213A28C7D4890016B541 /* Compilation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compilation.swift; sourceTree = "<group>"; };
+		18FC213C28C7DC590016B541 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		18FC213E28C7DED70016B541 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		18FC214128C8BE6C0016B541 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18FC214328C8BF050016B541 /* HomeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUI.swift; sourceTree = "<group>"; };
+		18FC214728CB45150016B541 /* ModeUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeUi.swift; sourceTree = "<group>"; };
+		18FC214928CB45300016B541 /* ModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeViewController.swift; sourceTree = "<group>"; };
+		27F29B94502060689943CB4B /* Pods-Atunda-AtundaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atunda-AtundaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Atunda-AtundaUITests/Pods-Atunda-AtundaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		516AE38D035E8A9D5870AC97 /* Pods-Atunda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atunda.release.xcconfig"; path = "Target Support Files/Pods-Atunda/Pods-Atunda.release.xcconfig"; sourceTree = "<group>"; };
+		5CEF24D22353C3E1688726B4 /* Pods_AtundaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtundaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0ED75658C39D9B2FBC4BD81 /* Pods-AtundaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtundaTests.debug.xcconfig"; path = "Target Support Files/Pods-AtundaTests/Pods-AtundaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEB443BD8E03BA79A1309553 /* Pods_Atunda_AtundaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atunda_AtundaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AE1FBC2A9F8ACD0038C86B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D682049C757F6A9D414715BB /* Pods-Atunda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atunda.debug.xcconfig"; path = "Target Support Files/Pods-Atunda/Pods-Atunda.debug.xcconfig"; sourceTree = "<group>"; };
+		DA359925405637BDF3E10F82 /* Pods-Atunda-AtundaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atunda-AtundaUITests.release.xcconfig"; path = "Target Support Files/Pods-Atunda-AtundaUITests/Pods-Atunda-AtundaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0AB39BA4D550F6E27E887FA /* Pods-AtundaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtundaTests.release.xcconfig"; path = "Target Support Files/Pods-AtundaTests/Pods-AtundaTests.release.xcconfig"; sourceTree = "<group>"; };
+		ECE12CAB41EB2EF6460FA0D2 /* Pods_Atunda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atunda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05E89E3BD0EBE67261B2751 /* Pods_Atunda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC6429EAFD3FA9EC29131A3 /* Pods_AtundaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +170,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				763D09AAEA2D9C908690CB62 /* Pods_Atunda_AtundaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		084BF6F9CFFF91D035876BC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECE12CAB41EB2EF6460FA0D2 /* Pods_Atunda.framework */,
+				BEB443BD8E03BA79A1309553 /* Pods_Atunda_AtundaUITests.framework */,
+				5CEF24D22353C3E1688726B4 /* Pods_AtundaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		189830152936691000A49ECC /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				189830162936693200A49ECC /* UploadsTableViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		18B8F25528D3B13B00956857 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				18B8F25628D3B15500956857 /* CaptureViewController.swift */,
+				18B8F25828D3B16800956857 /* CaptureUI.swift */,
+				18B8F26728EA627B00956857 /* CaptureTableViewCell.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		18B8F25C28DC503800956857 /* Selected */ = {
+			isa = PBXGroup;
+			children = (
+				18B8F25D28DC504B00956857 /* SelectedUI.swift */,
+				18B8F25F28DC507700956857 /* SelectedViewController.swift */,
+				18B8F26128DC587700956857 /* SelectedCollectionViewCell.swift */,
+			);
+			path = Selected;
+			sourceTree = "<group>";
+		};
+		18F2F3AF28D2313600D55C33 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				18F2F3B528D2321700D55C33 /* ProfileViewController.swift */,
+				18F2F3B728D2322800D55C33 /* ProfileUI.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		18F2F3B028D2314200D55C33 /* Uploads */ = {
+			isa = PBXGroup;
+			children = (
+				18F2F3B128D2318700D55C33 /* UploadsViewController.swift */,
+				18F2F3B328D231B500D55C33 /* UploadsUI.swift */,
+			);
+			path = Uploads;
+			sourceTree = "<group>";
+		};
+		18F2F3BB28D34D0600D55C33 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				18F2F3BC28D34D1600D55C33 /* SettingsUI.swift */,
+				18F2F3BE28D34D2700D55C33 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		18FC209728C60D550016B541 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +249,8 @@
 				18FC20B928C60D5A0016B541 /* AtundaTests */,
 				18FC20C328C60D5A0016B541 /* AtundaUITests */,
 				18FC20A128C60D550016B541 /* Products */,
+				763A8F935946F5BF16193E98 /* Pods */,
+				084BF6F9CFFF91D035876BC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +267,18 @@
 		18FC20A228C60D550016B541 /* Atunda */ = {
 			isa = PBXGroup;
 			children = (
+				C9AE1FBC2A9F8ACD0038C86B /* GoogleService-Info.plist */,
+				18B3B2242A09995400E65D64 /* Montserrat-Regular.ttf */,
+				18B3B2262A09996200E65D64 /* Montserrat-Bold.ttf */,
+				189830152936691000A49ECC /* CustomViews */,
+				18FC213528C7CF850016B541 /* Network */,
+				18FC20D728C621AC0016B541 /* Extensions */,
+				18FC20D628C621A40016B541 /* Helpers */,
+				18FC20D528C621940016B541 /* View Models */,
+				18FC20D428C6216E0016B541 /* Models */,
 				18FC20A328C60D550016B541 /* AppDelegate.swift */,
 				18FC20A528C60D550016B541 /* SceneDelegate.swift */,
-				18FC20A728C60D550016B541 /* ViewController.swift */,
+				18FC20D328C6215F0016B541 /* Views */,
 				18FC20A928C60D550016B541 /* Main.storyboard */,
 				18FC20AC28C60D590016B541 /* Assets.xcassets */,
 				18FC20AE28C60D590016B541 /* LaunchScreen.storyboard */,
@@ -127,6 +304,142 @@
 			path = AtundaUITests;
 			sourceTree = "<group>";
 		};
+		18FC20D328C6215F0016B541 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18B8F25528D3B13B00956857 /* Capture */,
+				18F2F3BB28D34D0600D55C33 /* Settings */,
+				18FC214528CB44CF0016B541 /* Tabs View Controllers */,
+				18FC20D828C621C70016B541 /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18FC20D428C6216E0016B541 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18FC213828C7D3170016B541 /* User.swift */,
+				18FC213A28C7D4890016B541 /* Compilation.swift */,
+				1898301829367F3F00A49ECC /* FileMetaData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18FC20D528C621940016B541 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				18FC213E28C7DED70016B541 /* AuthViewModel.swift */,
+				18B8F26528EA3CF800956857 /* CaptureViewModel.swift */,
+				184BE68D290EBDA500AD62D6 /* ProfileViewModel.swift */,
+				189235B1291118E100E4F139 /* ModeViewModel.swift */,
+				18058A69292CBA5700EB41A9 /* UploadViewModel.swift */,
+				18973D96294A2A9700F28381 /* SelectionViewModel.swift */,
+				18973D98294B642300F28381 /* HomeViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		18FC20D628C621A40016B541 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				18FC212428C635A00016B541 /* Constants.swift */,
+				18FC212C28C69CDB0016B541 /* Manipulations.swift */,
+				18FC213C28C7DC590016B541 /* Observable.swift */,
+				18F2F3B928D23A2200D55C33 /* Cache.swift */,
+				18B8F25A28DBB70A00956857 /* CustomPhotoAlbum.swift */,
+				18F3C70E2983433300A3E2A1 /* Protocols.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		18FC20D728C621AC0016B541 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18FC20D928C624F30016B541 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		18FC20D828C621C70016B541 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				18B8F25C28DC503800956857 /* Selected */,
+				18FC214028C8BE4A0016B541 /* Home */,
+				18FC212E28C7783A0016B541 /* Login */,
+				18FC212728C658350016B541 /* Signup */,
+				18FC20A728C60D550016B541 /* SplashViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		18FC212728C658350016B541 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				18FC212828C6585B0016B541 /* SignupUI.swift */,
+				18FC212A28C67D150016B541 /* SignupViewController.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		18FC212E28C7783A0016B541 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				18FC212F28C778530016B541 /* LoginViewController.swift */,
+				18FC213128C7786C0016B541 /* LoginUI.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		18FC213528C7CF850016B541 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				18FC213628C7D0020016B541 /* Service.swift */,
+				18B8F26328EA274800956857 /* DropBox.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		18FC214028C8BE4A0016B541 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18FC214128C8BE6C0016B541 /* HomeViewController.swift */,
+				18FC214328C8BF050016B541 /* HomeUI.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18FC214528CB44CF0016B541 /* Tabs View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18F2F3B028D2314200D55C33 /* Uploads */,
+				18F2F3AF28D2313600D55C33 /* Profile */,
+				18FC214628CB44E90016B541 /* Select content mode */,
+			);
+			path = "Tabs View Controllers";
+			sourceTree = "<group>";
+		};
+		18FC214628CB44E90016B541 /* Select content mode */ = {
+			isa = PBXGroup;
+			children = (
+				18FC214728CB45150016B541 /* ModeUi.swift */,
+				18FC214928CB45300016B541 /* ModeViewController.swift */,
+			);
+			path = "Select content mode";
+			sourceTree = "<group>";
+		};
+		763A8F935946F5BF16193E98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D682049C757F6A9D414715BB /* Pods-Atunda.debug.xcconfig */,
+				516AE38D035E8A9D5870AC97 /* Pods-Atunda.release.xcconfig */,
+				27F29B94502060689943CB4B /* Pods-Atunda-AtundaUITests.debug.xcconfig */,
+				DA359925405637BDF3E10F82 /* Pods-Atunda-AtundaUITests.release.xcconfig */,
+				A0ED75658C39D9B2FBC4BD81 /* Pods-AtundaTests.debug.xcconfig */,
+				E0AB39BA4D550F6E27E887FA /* Pods-AtundaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +447,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18FC20CA28C60D5A0016B541 /* Build configuration list for PBXNativeTarget "Atunda" */;
 			buildPhases = (
+				280787857954FAA02B98AFC3 /* [CP] Check Pods Manifest.lock */,
 				18FC209C28C60D550016B541 /* Sources */,
 				18FC209D28C60D550016B541 /* Frameworks */,
 				18FC209E28C60D550016B541 /* Resources */,
+				D480438C3421709CD4A0F8C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +466,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18FC20CD28C60D5A0016B541 /* Build configuration list for PBXNativeTarget "AtundaTests" */;
 			buildPhases = (
+				BAF6F90255B5CCFCB4101604 /* [CP] Check Pods Manifest.lock */,
 				18FC20B228C60D5A0016B541 /* Sources */,
 				18FC20B328C60D5A0016B541 /* Frameworks */,
 				18FC20B428C60D5A0016B541 /* Resources */,
@@ -169,9 +485,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18FC20D028C60D5A0016B541 /* Build configuration list for PBXNativeTarget "AtundaUITests" */;
 			buildPhases = (
+				80C3CAF3AD85B57B2BA845BB /* [CP] Check Pods Manifest.lock */,
 				18FC20BC28C60D5A0016B541 /* Sources */,
 				18FC20BD28C60D5A0016B541 /* Frameworks */,
 				18FC20BE28C60D5A0016B541 /* Resources */,
+				1AB5BA53E435D699ABFCB197 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +549,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B3B2252A09995400E65D64 /* Montserrat-Regular.ttf in Resources */,
 				18FC20B028C60D590016B541 /* LaunchScreen.storyboard in Resources */,
 				18FC20AD28C60D590016B541 /* Assets.xcassets in Resources */,
 				18FC20AB28C60D550016B541 /* Main.storyboard in Resources */,
+				18B3B2272A09996300E65D64 /* Montserrat-Bold.ttf in Resources */,
+				C9AE1FBD2A9F8ACE0038C86B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +574,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AB5BA53E435D699ABFCB197 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Atunda-AtundaUITests/Pods-Atunda-AtundaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Atunda-AtundaUITests/Pods-Atunda-AtundaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Atunda-AtundaUITests/Pods-Atunda-AtundaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		280787857954FAA02B98AFC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Atunda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80C3CAF3AD85B57B2BA845BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Atunda-AtundaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAF6F90255B5CCFCB4101604 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AtundaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D480438C3421709CD4A0F8C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Atunda/Pods-Atunda-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Atunda/Pods-Atunda-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Atunda/Pods-Atunda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18FC209C28C60D550016B541 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18FC20A828C60D550016B541 /* ViewController.swift in Sources */,
+				18FC213028C778530016B541 /* LoginViewController.swift in Sources */,
+				18B8F25B28DBB70B00956857 /* CustomPhotoAlbum.swift in Sources */,
+				18FC212B28C67D150016B541 /* SignupViewController.swift in Sources */,
+				18FC212528C635A00016B541 /* Constants.swift in Sources */,
+				18FC213B28C7D4890016B541 /* Compilation.swift in Sources */,
+				18B8F25928D3B16800956857 /* CaptureUI.swift in Sources */,
+				1898301929367F3F00A49ECC /* FileMetaData.swift in Sources */,
+				18FC214A28CB45300016B541 /* ModeViewController.swift in Sources */,
+				18FC212D28C69CDB0016B541 /* Manipulations.swift in Sources */,
+				18F2F3B628D2321700D55C33 /* ProfileViewController.swift in Sources */,
+				18B8F26028DC507700956857 /* SelectedViewController.swift in Sources */,
+				18FC214428C8BF050016B541 /* HomeUI.swift in Sources */,
+				18F2F3BD28D34D1600D55C33 /* SettingsUI.swift in Sources */,
+				18FC213F28C7DED70016B541 /* AuthViewModel.swift in Sources */,
+				18F2F3B828D2322800D55C33 /* ProfileUI.swift in Sources */,
+				18F2F3BA28D23A2200D55C33 /* Cache.swift in Sources */,
+				18FC20A828C60D550016B541 /* SplashViewController.swift in Sources */,
+				18FC213228C7786C0016B541 /* LoginUI.swift in Sources */,
 				18FC20A428C60D550016B541 /* AppDelegate.swift in Sources */,
+				18FC212928C6585B0016B541 /* SignupUI.swift in Sources */,
+				18FC213928C7D3180016B541 /* User.swift in Sources */,
+				18F2F3B228D2318700D55C33 /* UploadsViewController.swift in Sources */,
+				18FC214828CB45160016B541 /* ModeUi.swift in Sources */,
+				18973D97294A2A9700F28381 /* SelectionViewModel.swift in Sources */,
+				18B8F26228DC587800956857 /* SelectedCollectionViewCell.swift in Sources */,
+				18B8F26428EA274800956857 /* DropBox.swift in Sources */,
+				18B8F26828EA627C00956857 /* CaptureTableViewCell.swift in Sources */,
+				18FC214228C8BE6C0016B541 /* HomeViewController.swift in Sources */,
+				189235B2291118E100E4F139 /* ModeViewModel.swift in Sources */,
+				18FC213D28C7DC590016B541 /* Observable.swift in Sources */,
+				189830172936693200A49ECC /* UploadsTableViewCell.swift in Sources */,
+				18F3C70F2983433300A3E2A1 /* Protocols.swift in Sources */,
+				18F2F3B428D231B500D55C33 /* UploadsUI.swift in Sources */,
+				18B8F25728D3B15500956857 /* CaptureViewController.swift in Sources */,
+				18FC213728C7D0020016B541 /* Service.swift in Sources */,
+				184BE68E290EBDA500AD62D6 /* ProfileViewModel.swift in Sources */,
+				18B8F26628EA3CF800956857 /* CaptureViewModel.swift in Sources */,
+				18F2F3BF28D34D2700D55C33 /* SettingsViewController.swift in Sources */,
+				18973D99294B642300F28381 /* HomeViewModel.swift in Sources */,
 				18FC20A628C60D550016B541 /* SceneDelegate.swift in Sources */,
+				18B8F25E28DC504B00956857 /* SelectedUI.swift in Sources */,
+				18FC20DA28C624F30016B541 /* Extensions.swift in Sources */,
+				18058A6A292CBA5700EB41A9 /* UploadViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,14 +898,20 @@
 		};
 		18FC20CB28C60D5A0016B541 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D682049C757F6A9D414715BB /* Pods-Atunda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 77U4YHAY6F;
+				CURRENT_PROJECT_VERSION = 9.5.23;
+				DEVELOPMENT_TEAM = E5H7W73394;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Atunda/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Atunda wants to record videos with your camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Atunda wants to record sound with your microphone";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Atunda wants to save videos to your gallery";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Atunda wants to access videos in your photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -452,7 +922,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Atunda.Atunda;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atunda.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -462,14 +932,20 @@
 		};
 		18FC20CC28C60D5A0016B541 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 516AE38D035E8A9D5870AC97 /* Pods-Atunda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 77U4YHAY6F;
+				CURRENT_PROJECT_VERSION = 9.5.23;
+				DEVELOPMENT_TEAM = E5H7W73394;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Atunda/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Atunda wants to record videos with your camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Atunda wants to record sound with your microphone";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Atunda wants to save videos to your gallery";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Atunda wants to access videos in your photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -480,7 +956,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Atunda.Atunda;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atunda.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -490,6 +966,7 @@
 		};
 		18FC20CE28C60D5A0016B541 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0ED75658C39D9B2FBC4BD81 /* Pods-AtundaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +987,7 @@
 		};
 		18FC20CF28C60D5A0016B541 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AB39BA4D550F6E27E887FA /* Pods-AtundaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +1008,7 @@
 		};
 		18FC20D128C60D5A0016B541 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F29B94502060689943CB4B /* Pods-Atunda-AtundaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +1027,7 @@
 		};
 		18FC20D228C60D5A0016B541 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA359925405637BDF3E10F82 /* Pods-Atunda-AtundaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
